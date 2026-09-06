@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests feedparser
+          pip install requests beautifulsoup4
 
       - name: Run monitor script
         env:
