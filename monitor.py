@@ -5,10 +5,10 @@ import feedparser
 
 # ================= 配置项 =================
 # 替换为你要监控的 Instagram 账号用户名
-INSTAGRAM_USERNAME = "目标账号用户名"
+INSTAGRAM_USERNAME = "kith"
 
 # RSSHub 节点（如果公共实例受限，可替换为你自建或第三方稳定的 RSSHub 地址）
-RSS_URL = f"https://rsshub.app/instagram/user/kith"
+RSS_URL = f"https://rsshub.app/instagram/user/{INSTAGRAM_USERNAME}"
 
 SERVER_CHAN_KEY = os.environ.get("SERVERCHAN_SENDKEY")
 HISTORY_FILE = "last_post.json"
