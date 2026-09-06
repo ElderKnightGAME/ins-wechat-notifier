@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install instaloader requests
+          pip install requests
 
       - name: Run monitor script
         env:
