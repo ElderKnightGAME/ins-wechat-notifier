@@ -65,7 +65,7 @@ def main():
         print(f"首次初始化运行，记录最新帖子为: {post_id}")
         save_last_seen_id(post_id)
         # 如果你想首次部署就测试一次微信通知，取消下一行的注释：
-        send_wechat_notice("测试推送: " + post_title, post_content, post_link)
+        # send_wechat_notice("测试推送: " + post_title, post_content, post_link)
     elif last_seen_id != post_id:
         print("发现新发布动态，正在推送到微信...")
         send_wechat_notice(post_title, post_content, post_link)
